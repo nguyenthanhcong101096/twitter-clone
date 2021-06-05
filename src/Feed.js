@@ -24,15 +24,25 @@ function Feed() {
 
             <TweetBox />
             <FlipMove>
-            <Post
-							key = {1}
-							displayName = {"Nguyễn thành cong"}
-							username = {"congnt"}
-							verified = {"true"}
-							text = {"Danh sách 10 CLB có nhiều cầu thủ chinh chiến tại Euro 2020 vắng Real Madrid, Barcelona, Liverpool hay PSG."}
-							image = {"https://picsum.photos/200/300?grayscale"}
-							avatar = {"https://res.cloudinary.com/practicaldev/image/fetch/s--4GUdCMwp--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/631770/6464230a-e07d-4a01-884f-f960378e2af1.png"}
-            />
+							<Post
+								key = {1}
+								displayName = {"Nguyễn thành cong"}
+								username = {"congnt"}
+								verified = {"true"}
+								text = {"Danh sách 10 CLB có nhiều cầu thủ chinh chiến tại Euro 2020 vắng Real Madrid, Barcelona, Liverpool hay PSG."}
+								image = {"https://picsum.photos/200/300?grayscale"}
+								avatar = {"https://res.cloudinary.com/practicaldev/image/fetch/s--4GUdCMwp--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/631770/6464230a-e07d-4a01-884f-f960378e2af1.png"}
+							/>
+
+              <Post
+								key = {1}
+								displayName = {"Nguyễn thành cong"}
+								username = {"congnt"}
+								verified = {"true"}
+								text = {"For multiple services in K8S how can we control the permission of using AWS resouce within the pod. The easiest way is to use instance profile which attached to the EKS node but that is the worst way with high risk of security. Let's go through this post to know more"}
+								image = {""}
+								avatar = {"https://res.cloudinary.com/practicaldev/image/fetch/s--4GUdCMwp--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/631770/6464230a-e07d-4a01-884f-f960378e2af1.png"}
+							/>
             </FlipMove>
         </div>
     )
